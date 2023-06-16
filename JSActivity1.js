@@ -29,11 +29,11 @@ function mintNFT (_name, _zodiacSign, _color, _song) {
 // and print their metadata with console.log()
 function listNFTs () {
  for(let i = 0; i < NFTs.length; i++) {
-    console.log("\nID: \t\t\t\t\t" + (i + 1));
-    console.log("Name: \t\t\t\t" + NFTs[i].name);
-    console.log("Zodiac sign: \t" + NFTs[i].zodiacSign);
-    console.log("Color: \t\t\t\t" + NFTs[i].color);
-    console.log("Song: \t\t\t\t" + NFTs[i].song);
+    console.log("\nID: " + (i + 1));
+    console.log("Name: " + NFTs[i].name);
+    console.log("Zodiac sign: " + NFTs[i].zodiacSign);
+    console.log("Color: " + NFTs[i].color);
+    console.log("Song: " + NFTs[i].song);
  }
 }
 
